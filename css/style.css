@@ -57,9 +57,9 @@
 /* Start main */
 .site-banner {
     position: relative;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 100px;
-    background-image:url('/img/backg.jpg');
+    background-image:url('../img/backg.jpg');
     background-repeat: cover;
     background-size:700px, 3000px;
 }
