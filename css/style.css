@@ -1,0 +1,120 @@
+@import url(./fonts.css);
+
+/*CSS Variables*/
+@import url(./partials/variables.css);
+
+@import url(./partials/global.css);
+
+@import url(./partials/responsive.css);
+/* Start navigation bar */
+.navbar-brand{
+    padding-left: 50px;
+    background: linear-gradient(90deg, #2ca308 0%, #ffcc00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    flex: display;
+    border-radius: 1px;
+    box-shadow: #053f74;
+}
+.nav-item{
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--poppins);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.main-menu{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: fixed;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: fixed;
+}
+
+.bg-body-tertiary{
+    background: linear-gradient(135deg, #c300ff 0%, #ebe2f7 10%, #ffffff 50%, #bce9ff 95%, #053f74 100%);
+}
+
+/* End navigation bar */
+
+/* Start main */
+.site-banner {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image:url('/img/backg.jpg');
+    background-repeat: cover;
+    background-size:700px, 3000px;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* Start About Area */ 
+.about-area{
+    margin-top: 50px;
+}
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--poppins);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+/*start table */
+.container{
+    padding-top: 50px;
+}
+/* end table */
+/* End main */
