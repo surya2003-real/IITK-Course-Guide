@@ -5,7 +5,7 @@
 
 @import url(./partials/global.css);
 
-@import url(./partials/responsive.css);
+@import url(./responsive.css);
 /* Start navigation bar */
 .navbar-brand{
     padding-left: 50px;
@@ -46,7 +46,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    position: fixed;
 }
 
 .bg-body-tertiary{
@@ -58,7 +57,7 @@
 /* Start main */
 .site-banner {
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     background-image:url('/img/backg.jpg');
     background-repeat: cover;
