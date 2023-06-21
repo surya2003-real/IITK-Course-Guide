@@ -55,6 +55,9 @@
 /* End navigation bar */
 
 /* Start main */
+.backg{
+    background-image:url('../img/table_backg.jpg');
+}
 .site-banner {
     position: relative;
     padding-top: 15px;
